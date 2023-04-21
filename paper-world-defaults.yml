@@ -1,50 +1,37 @@
-# This is the world defaults configuration file for Paper.
-# As you can see, there's a lot to configure. Some options may impact gameplay, so use
-# with caution, and make sure you know what each option does before configuring.
-# 
-# If you need help with the configuration or have any questions related to Paper,
-# join us in our Discord or check the docs page.
-# 
-# Configuration options here apply to all worlds, unless you specify overrides inside
-# the world-specific config file inside each world folder.
-# 
-# Docs: https://docs.papermc.io/
-# Discord: https://discord.gg/papermc
-# Website: https://papermc.io/
-
+---
 _version: 30
 anticheat:
   anti-xray:
     enabled: false
     engine-mode: 1
     hidden-blocks:
-    - copper_ore
-    - deepslate_copper_ore
-    - gold_ore
-    - deepslate_gold_ore
-    - iron_ore
-    - deepslate_iron_ore
-    - coal_ore
-    - deepslate_coal_ore
-    - lapis_ore
-    - deepslate_lapis_ore
-    - mossy_cobblestone
-    - obsidian
-    - chest
-    - diamond_ore
-    - deepslate_diamond_ore
-    - redstone_ore
-    - deepslate_redstone_ore
-    - clay
-    - emerald_ore
-    - deepslate_emerald_ore
-    - ender_chest
+      - copper_ore
+      - deepslate_copper_ore
+      - gold_ore
+      - deepslate_gold_ore
+      - iron_ore
+      - deepslate_iron_ore
+      - coal_ore
+      - deepslate_coal_ore
+      - lapis_ore
+      - deepslate_lapis_ore
+      - mossy_cobblestone
+      - obsidian
+      - chest
+      - diamond_ore
+      - deepslate_diamond_ore
+      - redstone_ore
+      - deepslate_redstone_ore
+      - clay
+      - emerald_ore
+      - deepslate_emerald_ore
+      - ender_chest
     lava-obscures: false
     max-block-height: 64
     replacement-blocks:
-    - stone
-    - oak_planks
-    - deepslate
+      - stone
+      - oak_planks
+      - deepslate
     update-radius: 2
     use-permission: false
   obfuscation:
@@ -54,7 +41,7 @@ anticheat:
       hide-itemmeta-with-visual-effects: false
 chunks:
   auto-save-interval: default
-  delay-chunk-unloads-by: '10'
+  delay-chunk-unloads-by: "10"
   entity-per-chunk-save-limit:
     arrow: -1
     ender_pearl: -1
@@ -84,16 +71,16 @@ entities:
     disable-player-crits: false
     door-breaking-difficulty:
       husk:
-      - HARD
+        - HARD
       vindicator:
-      - NORMAL
-      - HARD
+        - NORMAL
+        - HARD
       zombie:
-      - HARD
+        - HARD
       zombie_villager:
-      - HARD
+        - HARD
       zombified_piglin:
-      - HARD
+        - HARD
     ender-dragons-death-always-places-dragon-egg: false
     experience-merge-max-value: -1
     mobs-can-always-pick-up-loot:
@@ -118,7 +105,7 @@ entities:
     player-insomnia-start-ticks: 72000
     should-remove-dragon: false
     spawner-nerfed-mobs-should-jump: false
-    zombie-villager-infection-chance: -1.0
+    zombie-villager-infection-chance: -1
     zombies-target-turtle-eggs: true
   entities-target-with-follow-range: false
   markers:
@@ -161,7 +148,7 @@ entities:
         andesite: 600
         scaffolding: 900
     count-all-mobs-for-spawning: false
-    creative-arrow-despawn-rate: '20'
+    creative-arrow-despawn-rate: "20"
     despawn-ranges:
       ambient:
         hard: 56
@@ -193,23 +180,23 @@ entities:
       safe-regen-delete-range: 32
     filter-bad-tile-entity-nbt-from-falling-blocks: true
     filtered-entity-tag-nbt-paths:
-    - Pos
-    - Motion
-    - SleepingX
-    - SleepingY
-    - SleepingZ
+      - Pos
+      - Motion
+      - SleepingX
+      - SleepingY
+      - SleepingZ
     iron-golems-can-spawn-in-air: false
     monster-spawn-max-light-level: -1
-    non-player-arrow-despawn-rate: '20'
+    non-player-arrow-despawn-rate: "20"
     per-player-mob-spawns: true
     scan-for-legacy-ender-dragon: true
     skeleton-horse-thunder-spawn-chance: default
     slime-spawn-height:
       slime-chunk:
-        maximum: 40.0
+        maximum: 40
       surface-biome:
-        maximum: 70.0
-        minimum: 50.0
+        maximum: 70
+        minimum: 50
     spawn-limits:
       ambient: -1
       axolotls: -1
@@ -313,7 +300,7 @@ misc:
     trident: 16
     wither_skull: 4
   light-queue-size: 20
-  max-leash-distance: 10.0
+  max-leash-distance: 10
   redstone-implementation: ALTERNATE_CURRENT
   shield-blocking-delay: 5
   show-sign-click-command-failure-msgs-to-player: false
@@ -326,7 +313,7 @@ spawn:
   keep-spawn-loaded: true
   keep-spawn-loaded-range: 5
 tick-rates:
-    behavior:
+  behavior:
     villager:
       validatenearbypoi: 60
       acquirepoi: 120
