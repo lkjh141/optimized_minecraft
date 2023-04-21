@@ -1,0 +1,33 @@
+settings:
+  allow-end: true
+  warn-on-overload: true
+  permissions-file: permissions.yml
+  update-folder: update
+  plugin-profiling: false
+  connection-throttle: 4000
+  query-plugins: true
+  deprecated-verbose: default
+  shutdown-message: Server closed
+  minimum-api: none
+  use-map-color-cache: true
+aliases: now-in-commands.yml
+chunk-gc:
+  period-in-ticks: 400
+spawn-limits:
+  axolotls: 3
+  ambient: 1
+  animals: 5
+  monsters: 20
+  water-animals: 2
+  water-ambient: 2
+  water-underground-creature: 3
+ticks-per:
+  animal-spawns: 400
+  axolotl-spawns: 400
+  autosave: 6000
+  auto-save: 6000
+  monster-spawns: 10
+  water-spawns: 400
+  water-ambient-spawns: 400
+  water-underground-creature-spawns: 400
+  ambient-spawns: 400
