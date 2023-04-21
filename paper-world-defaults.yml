@@ -1,5 +1,4 @@
 ---
-_version: 30
 anticheat:
   anti-xray:
     enabled: false
