@@ -6,21 +6,21 @@
     "Protocol": 756
   },
   "Commands": {
-    "StartServer": "java <Commands.StartServerParam> -jar <Server.FileName> nogui",
+    "StartServer": "java -Xms128M <Commands.StartServerParam> -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -jar <Server.FileName> nogui",
     "StartServerParam": "-Xmx1024M -Xms1024M",
     "StopServer": "stop",
-    "StopServerAllowKill": 10
+    "StopServerAllowKill": 30
   },
   "Msh": {
     "ID": "52fdfc0721feefe75af65af163f82654f163f",
     "Debug": 1,
-    "AllowSuspend": false,
+    "AllowSuspend": true,
     "InfoHibernation": "                   §fserver status:\n                   §b§lHOSTED BY PYLEX - HIBERNATING",
     "InfoStarting": "                   §fserver status:\n                    §6§lHOSTED BY PYLEX - WARMING UP",
     "NotifyUpdate": true,
     "NotifyMessage": true,
     "ListenPort": 25555,
-    "TimeBeforeStoppingEmptyServer": 30,
+    "TimeBeforeStoppingEmptyServer": 60,
     "Whitelist": []
   }
 }
