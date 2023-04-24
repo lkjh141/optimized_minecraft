@@ -1,7 +1,7 @@
 server_connect_timeout: 5000
 listeners:
 - motd: 'Hosted on Pylex'
-  host: host: 0.0.0.0:25573
+  host: 0.0.0.0:25573
   tab_size: 60
   bind_local_address: true
 remote_ping_cache: -1
