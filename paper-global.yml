@@ -91,7 +91,7 @@ player-auto-save:
   rate: -1
 proxies:
   bungee-cord:
-    online-mode: false
+    online-mode: true #CHANGE THIS if you are using bungeecord or waterfall
   proxy-protocol: false
   velocity:
     enabled: false
