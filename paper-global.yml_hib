@@ -49,7 +49,7 @@ commands:
 console:
   enable-brigadier-completions: true
   enable-brigadier-highlighting: true
-  has-all-permissions: false
+  has-all-permissions: true
 item-validation:
   book:
     author: 8192
@@ -67,13 +67,13 @@ logging:
   use-rgb-for-named-text-colors: true
 messages:
   kick:
-    authentication-servers-down: <lang:multiplayer.disconnect.authservers_down>
-    connection-throttle: Connection throttled! Please wait before reconnecting.
-    flying-player: <lang:multiplayer.disconnect.flying>
-    flying-vehicle: <lang:multiplayer.disconnect.flying>
+    authentication-servers-down: <lang:multiplayer.disconnect.authservers_down>. Hosted on Pylex.
+    connection-throttle: Connection throttled! Please wait before reconnecting. Hosted on Pylex.
+    flying-player: <lang:multiplayer.disconnect.flying>. Hosted on Pylex.
+    flying-vehicle: <lang:multiplayer.disconnect.flying>. Hosted on Pylex.
   no-permission: <red>I'm sorry, but you do not have permission to perform this command.
-    Please contact the server administrators if you believe that this is in error.
-  use-display-name-in-quit-message: false
+    Please contact the server administrators if you believe that this is in error. Hosted on Pylex.
+  use-display-name-in-quit-message: true
 misc:
   chat-threads:
     chat-executor-core-size: -1
@@ -91,7 +91,7 @@ packet-limiter:
     action: KICK
     interval: 7.0
     max-packet-rate: 500.0
-  kick-message: <red><lang:disconnect.exceeded_packet_rate>
+  kick-message: <red><lang:disconnect.exceeded_packet_rate>. Hosted on Pylex.
   overrides:
     ServerboundPlaceRecipePacket:
       action: DROP
