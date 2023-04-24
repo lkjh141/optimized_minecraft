@@ -1,0 +1,26 @@
+{
+  "Server": {
+    "Folder": "./",
+    "FileName": "server.jar",
+    "Version": "1.17.1",
+    "Protocol": 756
+  },
+  "Commands": {
+    "StartServer": "java <Commands.StartServerParam> -jar <Server.FileName> nogui",
+    "StartServerParam": "-Xmx1024M -Xms1024M",
+    "StopServer": "stop",
+    "StopServerAllowKill": 10
+  },
+  "Msh": {
+    "ID": "52fdfc0721feefe75af65af163f82654f163f",
+    "Debug": 1,
+    "AllowSuspend": false,
+    "InfoHibernation": "                   §fserver status:\n                   §b§lHOSTED BY PYLEX - HIBERNATING",
+    "InfoStarting": "                   §fserver status:\n                    §6§lHOSTED BY PYLEX - WARMING UP",
+    "NotifyUpdate": true,
+    "NotifyMessage": true,
+    "ListenPort": 25555,
+    "TimeBeforeStoppingEmptyServer": 30,
+    "Whitelist": []
+  }
+}
