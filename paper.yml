@@ -24,7 +24,7 @@ verbose: false
 config-version: 13
 settings:
   sleep-between-chunk-saves: true
-  bungee-online-mode: true
+  bungee-online-mode: true  #ONLY CHANGE THIS VALUE TO FALSE IF YOU WANNA USE OFFLINE/CRACKED BUNGEECORD INSTEAD OF ONNLINE/PREMIUM BUNGEECORD, do not change anything else
   load-permissions-yml-before-plugins: true
   save-empty-scoreboard-teams: false
   min-chunk-load-threads: 2
