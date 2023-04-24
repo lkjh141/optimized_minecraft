@@ -46,7 +46,7 @@ settings:
   restart-on-crash: true
   restart-script: ./start.sh
   sample-count: 12
-  bungeecord: false
+  bungeecord: false #CHANGE THIS if you are using bungeecord or waterfall
   netty-threads: 4
   attribute:
     maxHealth:
