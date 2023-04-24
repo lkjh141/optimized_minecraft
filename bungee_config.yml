@@ -1,3 +1,14 @@
+# ! ! ! YOU ARE ALLOWED TO EDIT THIS FILE, BUT FIRST READ SOME GUIDE. PYLEX IS NOT RESPONSIBLE FOR MISCONFIGURED AND NON WORKING BUNGEECORD INSTANCES AND ITS CONFIGURATIONS ! ! !
+# This file is pre-generated and optimized for as little lag as possible.
+# Modifying this file will result in bigger lag and possible server reinstall or deletion.
+# Modifying this file is at your own risk and no support will be provided if the values here have been changed.
+# Thank you for chosing Pylex Hosting. #1 Free 24/7 Minecraft and Discord Bot Hosting Provider.
+# This values and eggs have been made by MG141#5621. If used anywhere else outside of Pylex, please mention me somewhere.
+# Optimizatied values were gather from https://github.com/YouHaveTrouble/minecraft-optimization
+# Paper and Waterfall egg were made by parkervcp. Paper egg has been optimized by flaxeneel2. Hibernation was made by PaperOnDemand.
+# All generated files at installation and eggs were modified and edited to achive full optimization by MG141#5621.
+#
+# ! ! ! YOU ARE ALLOWED TO EDIT THIS FILE, BUT FIRST READ SOME GUIDE. PYLEX IS NOT RESPONSIBLE FOR MISCONFIGURED AND NON WORKING BUNGEECORD INSTANCES AND ITS CONFIGURATIONS ! ! !
 server_connect_timeout: 5000
 listeners:
 - motd: 'Hosted on Pylex'
