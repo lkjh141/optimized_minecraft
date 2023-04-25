@@ -12,7 +12,6 @@
     "StopServerAllowKill": 30
   },
   "Msh": {
-    "ID": "52fdfc0721feefe75af65af163f82654f163f",
     "Debug": 1,
     "AllowSuspend": true,
     "InfoHibernation": "                   §fserver status:\n                   §b§lHOSTED BY PYLEX - HIBERNATING",
