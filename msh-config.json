@@ -1,25 +1,34 @@
 {
-  "Server": {
-    "Folder": "./",
+    "Commands": {
+        "StartServer": "java \u003cCommands.StartServerParam\u003e -jar \u003cServer.FileName\u003e nogui",
+        "StartServerParam": "-Xms128M -Xmx2048M",
+        "StopServer": "stop",
+        "StopServerAllowKill": 30
+    },
     "FileName": "server.jar",
-    "Version": "1.17.1",
-    "Protocol": 756
-  },
-  "Commands": {
-    "StartServer": "java -Xms128M <Commands.StartServerParam> -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -jar <Server.FileName> nogui",
-    "StartServerParam": "-Xmx1024M -Xms1024M",
-    "StopServer": "stop",
-    "StopServerAllowKill": 30
-  },
-  "Msh": {
-    "Debug": 1,
-    "AllowSuspend": true,
-    "InfoHibernation": "                   §fserver status:\n                   §b§lHOSTED BY PYLEX - HIBERNATING",
-    "InfoStarting": "                   §fserver status:\n                    §6§lHOSTED BY PYLEX - WARMING UP",
-    "NotifyUpdate": true,
-    "NotifyMessage": true,
-    "ListenPort": 25555,
-    "TimeBeforeStoppingEmptyServer": 60,
-    "Whitelist": []
-  }
+    "Msh": {
+        "Debug": 2,
+        "EnableQuery": false,
+        "ID": "794295d0b522d27f7d164434429c8194dc980776",
+        "InfoHibernation": "                   §fserver status:\n                   §b§lHOSTED BY PYLEX - HIBERNATING",
+        "InfoStarting": "                   §fserver status:\n                    §6§lHOSTED BY PYLEX - WARMING UP",
+        "MshPort": 0,
+        "MshPortQuery": 0,
+        "NotifyMessage": true,
+        "NotifyUpdate": true,
+        "ShowInternetUsage": true,
+        "ShowResourceUsage": true,
+        "SuspendAllow": true,
+        "SuspendRefresh": 30,
+        "TimeBeforeStoppingEmptyServer": 120,
+        "Whitelist": [],
+        "WhitelistImport": false
+    },
+    "Port": 5464,
+    "Server": {
+        "FileName": "server.jar",
+        "Folder": "./",
+        "Protocol": 762,
+        "Version": "1.19.4"
+    }
 }
