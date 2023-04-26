@@ -9,7 +9,6 @@
     "Msh": {
         "Debug": 2,
         "EnableQuery": false,
-        "ID": "794295d0b522d27f7d164434429c8194dc980776",
         "InfoHibernation": "                   §fserver status:\n                   §b§lHOSTED BY PYLEX - HIBERNATING",
         "InfoStarting": "                   §fserver status:\n                    §6§lHOSTED BY PYLEX - WARMING UP",
         "MshPort": 0,
@@ -25,10 +24,4 @@
         "WhitelistImport": false
     },
     "Port": 5464,
-    "Server": {
-        "FileName": "server.jar",
-        "Folder": "./",
-        "Protocol": 762,
-        "Version": "1.19.4"
-    }
 }
